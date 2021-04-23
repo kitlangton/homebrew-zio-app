@@ -1,9 +1,9 @@
 class ZioApp < Formula
   desc "Create ZIO apps quickly."
   homepage "https://github.com/kitlangton/zio-app"
-  url "https://github.com/kitlangton/zio-app/releases/download/v0.1.2/zio-app.gz"
-  sha256 "2723fce03aba8fe1dd12979c36d54e1e62a5b4c4ae326fb174354da3a85a8ab5"
-  version "0.1.2"
+  url "https://github.com/kitlangton/zio-app/archive/v0.1.3.tar.gz"
+  sha256 "ee9e371abf9328d8c00bc52f875cf008219a125fc39d01412f12d701be705729"
+  version "0.1.3"
 
   def install
     bin.install "zio-app"
